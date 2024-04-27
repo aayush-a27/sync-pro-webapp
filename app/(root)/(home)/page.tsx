@@ -1,3 +1,4 @@
+
 import MeetingTypeList from '@/components/MeetingTypeList';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       </div>
 
       <MeetingTypeList />
+      
     </section>
   )
 }
