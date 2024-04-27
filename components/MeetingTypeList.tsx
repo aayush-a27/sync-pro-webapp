@@ -18,7 +18,7 @@ const MeetingTypeList = () => {
                         description="Start an instant meeting"
                         handleClick={() => setmeetingState("isJoiningMeeting")
                         }
-                        className="bg-orange-1"
+                        className="bg-gradient-to-r from-purple-700 to-blue-300 "
                     />
                 </div>
                 <div className='h-full w-3/5 border-2 rounded-xl border-black'>
@@ -27,7 +27,7 @@ const MeetingTypeList = () => {
                         title="Schedule Meeting"
                         description="Plan your meeting"
                         handleClick={() => setmeetingState("isScheduleMeeting")}
-                        className="bg-blue-1"
+                        className="bg-gradient-to-r from-green-700 to-blue-500 "
                     />
                 </div>
 
@@ -41,7 +41,7 @@ const MeetingTypeList = () => {
                         title="view Recording"
                         description="Check out your Recordings"
                         handleClick={() => setmeetingState("isJoiningMeeting")}
-                        className="bg-purple-1"
+                        className="bg-gradient-to-r from-green-900 to-lime-500 "
                     />
                 </div>
 
@@ -51,7 +51,7 @@ const MeetingTypeList = () => {
                         title="New Meeting"
                         description="Start an instant meeting"
                         handleClick={() => router.push('/recordings')}
-                        className="bg-yellow-1"
+                        className="bg-gradient-to-r from-indigo-900 to-blue-300"
                     />
                 </div>
 
